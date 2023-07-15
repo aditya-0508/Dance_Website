@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Roboto+Mono:wght@100&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: flex-start;
+    margin:0px 10px ;
+    font-size: large;
+}
+#logo img{
+    height: 30px;
+    filter: invert(1);
+}
+#navbar{
+    padding: 16px 20px;
+    background-color: black;
+    font-family: 'Bruno Ace', cursive;
+    color: white;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;/*verically arrange kar dega */
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 8px 12px;
+}
+#navbar li a:hover{
+    text-decoration: none;
+    padding: 8px 12px;
+    color:aqua
+}
+#IntroSection {
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 3rem;
+    background: center / cover no-repeat url("/static/img/bg.jpg");
+    height: 300px;
+    background-color: palevioletred;
+}
+#IntroSection div.small{
+    font-size: 28px;
+    padding: 10px;
+}
+#Sponsorsection{
+    height: 300px;
+    background-color: #ce66b6e0;
+}
+#Missionsection {
+    padding-bottom: 50px;
+    height: 320px;
+}
+#Missionsection h3{
+    text-align: center;
+    padding-top: 18px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bolder;
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 30%;
+    padding: 4px 75px;
+    height: 200px;
+    margin: 25px;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 140px;
+    padding: 0px 14px;
+    margin: 2px 5px;
+}
+.card-img img{
+    height: inherit;
+    padding: 0px 4px;
+}
+.card-content{
+    padding: 5px;
+    margin: auto;
+}
+.card-content p{
+    font-size: 18px;
+}
+#Sponsorsection h3{
+    text-align: center;
+    padding-top: 18px;
+    font-size: xx-large;
+    font-family: 'Roboto Mono', monospace;
+}
+#sponsors{
+    height: 200px;
+    max-width: 1000px;
+    margin: 27px auto;
+
+}
+.spimage{
+    height: 80%;  
+    padding: 25px;
+}
+#footer{
+    display: flex;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: black;
+    font-size: 22px;
+}

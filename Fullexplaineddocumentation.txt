@@ -1,0 +1,39 @@
+//This is the documenatation abt the Dance Website 
+In app.js file , all the backend part is written , we are using the express, pug,nodejs,mongodb,mongoose 
+//One of the major step is the first to use the npm install all the packages concerning with that particular project 
+//All the mentioned steps are for the app.js file 
+the very first step is the exporting the modules 
+2nd--> Write the express specific stuff ,also with that write down the pug specific stuff 
+3rd--> Also with this start the server 
+4th--> Make all the endpoints concerning with the get and post requests...
+5th--> Write this step only after all the pug (css and html part is completed).Here u need to define the mongoose schema part 
+6th--> Make the model of that particular schema
+After this as u need to the add the data to the database write the post request part and then store in a variable,also u can check this part from the the app.js file 
+
+//Then comes the part of the index.pug part(This is used in the starting part after that use the concept of template inheritance that's why home.pug is being served )
+copy the initial few steps from the documentation or the file itself 
+in the body all the html part needs to be added 
+ONE OF THE MOST IMPORTANT THING HERE IS THAT THE INDENTATION OR THE MANNER NEEDS TO VERY WELL KEEP INTO THE MIND(FOR THIS REFER THE WEBSITE)
+Also check for the includes how all the stuff can be added (as we need to add the css (styling ) and the javascript file (js))
+Also u can always refer to this file whenever u want this index.pug gives u a very good idea abt hw to write in the pug files 
+
+//for this particular stuff u make a style.css file 
+all the styling for this file is done in this file 
+
+//After this, if u want to add another page whose link (href) is given then after that link is pressed it's imp that the page opening is styled as well
+For this u need to make a base .pug file where u add how the layout of that particular link file must looklike .This base.pug just gives u a outlook of how the contact.pug will look 
+block are used it just says that we are adiing the css or the js part 
+
+Also in this project we have made a navbar as it needs to be present in both the home as well as the contact page .So in case we write it down twice it will be printed twice in the web age 
+
+So in the home.pug file first u extends the base .pug file and copy all the contents from the style.css excluding the nav bar as we have that part as common and need not be added twice 
+
+//in the contact.pug, we are adding the html part in the as this needs to be stored in the databse we are giving a outlook of a form ,all the part remians the same 
+for the contact.pug u make a stylecontent.css file where all the form or the extra part is styled according 
+
+
+//////VERY IMPORTANT THING IS ALWAYS REFER TO THE DOCUMENTATION WHILE WRITING DOWN THE CODE 
+
+
+
+Extra info abt the schema part is that when u want to  pass the array then use the [datatype like [string]] like for the when u want to add as objects 
